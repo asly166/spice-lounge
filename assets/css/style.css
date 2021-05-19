@@ -4,6 +4,7 @@ body {
   font-size: 1rem;
 }
 /* COMMON */
+
 /* CARUSEL */
 
 .carusel .carousel-item {
@@ -23,6 +24,88 @@ body {
   left: 0;
   right: 0;
   z-index: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.navbar-dark .navbar-brand span {
+  background-color: #f32c2c;
+  padding: 0rem 0.2rem;
+}
+.navbar-nav {
+  font-weight: 300;
+}
+.navbar-nav .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-main {
+  top: 65vh;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 /* NAVBAR */
+
+/* HEADER */
+
+header {
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+  right: 0;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .contact {
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-align: right;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.513);
+}
+
+header .contact .phone {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.social-media a {
+  background-color: rgb(22, 9, 9);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-media li {
+  margin-right: 0.7rem;
+}
+
+/* SOCİAL MEDİA */
