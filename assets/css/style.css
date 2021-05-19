@@ -1,0 +1,28 @@
+/* COMMON */
+body {
+  font-family: Oswald;
+  font-size: 1rem;
+}
+/* COMMON */
+/* CARUSEL */
+
+.carusel .carousel-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* CARUSEL */
+
+/* NAVBAR */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* NAVBAR */
