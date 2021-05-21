@@ -1,5 +1,4 @@
 /* COMMON */
-
 :root {
   --color1: #f32c2c;
   --color2: #f11717;
@@ -8,6 +7,7 @@
 body {
   font-family: Oswald;
   font-size: 1rem;
+  overflow: hidden;
 }
 /* COMMON */
 
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar-dark .navbar-brand span {
-  color: #f32c2c;
+  color: var(--color1);
   padding: 0rem 0.2rem;
 }
 
@@ -170,17 +170,17 @@ footer ul {
 }
 
 footer li {
-  background-color: #f32c2c;
+  background-color: var(--color1);
   border-radius: 0.2rem;
   transition: all 0.5s;
 }
 
 footer li:hover {
-  background-color: #f11717;
+  background-color: var(--color2);
 }
 
 footer li:hover::after {
-  border-top: 13px solid #f11717;
+  border-top: 13px solid var(--color2);
 }
 
 footer li:hover i {
@@ -192,7 +192,7 @@ footer li::after {
   content: "";
   width: 0;
   height: 0;
-  border-top: 13px solid #f32c2c;
+  border-top: 13px solid var(--color1);
   border-right: 15px solid transparent;
   border-bottom: 2px solid transparent;
   border-left: 0 solid transparent;
@@ -271,7 +271,7 @@ footer i {
   padding: 9rem 2.3rem 2.3rem 2.3rem;
   height: 100vh;
   color: white;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.671);
 }
 
 .page-bg h1 {
@@ -291,6 +291,11 @@ footer i {
   font-weight: 200;
 }
 
+.page-bg .btn {
+  background-color: var(--color1);
+  color: rgb(224, 224, 224);
+}
+
 .page-bg .content {
   height: 90%;
   overflow: auto;
@@ -299,7 +304,6 @@ footer i {
 /* PAGE COMMON */
 
 /* PAGE ABOUT */
-
 .page-about h2 {
   color: var(--color1);
   font-size: 1.1rem;
