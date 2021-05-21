@@ -19,7 +19,7 @@ body {
 }
 
 @media (max-width: 992px) {
-  .carousel .arrow {
+  .carousel .button {
     display: none;
   }
 }
@@ -99,14 +99,13 @@ header .contact {
   font-size: 1.3rem;
   text-align: right;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.513);
-  min-width: 320px;
+  width: 100vw;
 }
 
 @media (max-width: 992px) {
   header .contact {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.541);
   }
 }
 
@@ -174,6 +173,10 @@ footer li:hover {
   background-color: #f11717;
 }
 
+footer li:hover::after {
+  border-top: 13px solid #f11717;
+}
+
 footer li:hover i {
   color: rgba(0, 0, 0, 0.349);
 }
@@ -220,7 +223,7 @@ footer li:nth-child(3) {
 
 footer li:nth-child(3):hover {
   z-index: 30;
-  transform: translateX(-60) rotate(-5deg) scale(1.1);
+  transform: translateX(-60) rotate(0deg) scale(1.1);
 }
 
 /* Elemanları içi içe geçirmek ve kendi etrafında 5 derece döndürmek için */
@@ -248,3 +251,19 @@ footer i {
 }
 
 /* FOOTER */
+
+/* PAGE COMMON */
+.page-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-bg .row {
+  margin-top: 6rem;
+}
