@@ -357,3 +357,21 @@ footer i {
   box-shadow: none;
 }
 /* PAGE MENU */
+
+/* PAGE RESERVATION */
+.page-reservation .input-group button,
+.page-reservation textarea,
+.page-reservation input {
+  background-color: rgba(48, 48, 48, 0.74);
+  border: 0;
+  padding: 0.8rem;
+}
+
+.page-reservation .input-group {
+  width: 70%;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+/* PAGE RESERVATION */
