@@ -5,7 +5,7 @@ body {
 }
 /* COMMON */
 
-/* CARUSEL */
+/* CAROUSEL */
 
 .carousel .carousel-item {
   height: 100vh;
@@ -13,21 +13,19 @@ body {
   background-size: cover;
   background-position: center center;
 }
-
 .carousel .arrow {
   font-size: 4rem;
 }
 
 @media (max-width: 992px) {
-  .carousel .button {
+  .carousel button {
     display: none;
   }
 }
 
-/* CARUSEL */
+/* CAROUSEL */
 
 /* NAVBAR */
-
 .navbar {
   background-color: rgba(0, 0, 0, 0.9) !important;
   position: absolute;
@@ -44,13 +42,16 @@ body {
   color: #d6d6d6;
   font-weight: 700;
 }
+
 .navbar-dark .navbar-brand span {
   color: #f32c2c;
   padding: 0rem 0.2rem;
 }
+
 .navbar-nav {
   font-weight: 300;
 }
+
 .navbar-nav .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -67,10 +68,10 @@ body {
     top: 0;
   }
 }
+
 /* NAVBAR */
 
-/* HEADER */
-
+/*  HEADER */
 header {
   position: absolute;
   top: 1rem;
@@ -98,7 +99,7 @@ header .contact {
   color: white;
   font-size: 1.3rem;
   text-align: right;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.513);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.514);
   width: 100vw;
 }
 
@@ -121,7 +122,7 @@ header .contact .phone {
 }
 
 .social-media a {
-  background-color: rgb(22, 9, 9, 0.842);
+  background-color: rgba(22, 9, 9, 0.842);
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
@@ -138,13 +139,12 @@ header .contact .phone {
   margin-right: 0.7rem;
 }
 
-/* HEADER */
+/*  HEADER */
 
 /* FOOTER */
-
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0rem;
   right: 7rem;
   z-index: 5;
   overflow: hidden;
@@ -194,8 +194,7 @@ footer li::after {
   margin: 0 auto;
 }
 
-/* Elemanları iç içe geçirmek ve kendi etrafında 5 derece döndürmek için */
-
+/* Elemanları içi içe geçirmek ve kendi etrafında 5 derece döndürmek için */
 footer li:nth-child(1) {
   z-index: 12;
   transform: rotate(-5deg);
@@ -208,28 +207,27 @@ footer li:nth-child(1):hover {
 
 footer li:nth-child(2) {
   z-index: 11;
-  transform: translateX(-30) rotate(5deg);
+  transform: translateX(-30%) rotate(5deg);
 }
 
 footer li:nth-child(2):hover {
   z-index: 30;
-  transform: translateX(-30) rotate(0deg) scale(1.1);
+  transform: translateX(-30%) rotate(0deg) scale(1.1);
 }
 
 footer li:nth-child(3) {
   z-index: 10;
-  transform: translateX(-60) rotate(-5deg);
+  transform: translateX(-60%) rotate(-5deg);
 }
 
 footer li:nth-child(3):hover {
   z-index: 30;
-  transform: translateX(-60) rotate(0deg) scale(1.1);
+  transform: translateX(-60%) rotate(0deg) scale(1.1);
 }
-
 /* Elemanları içi içe geçirmek ve kendi etrafında 5 derece döndürmek için */
 
 footer a {
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 1.3rem;
   color: #ffffff;
   text-decoration: none;
   display: flex;
@@ -247,9 +245,8 @@ footer a:hover {
 
 footer i {
   font-size: 2rem;
-  color: rgb(0, 0, 0.212);
+  color: rgba(0, 0, 0, 0.212);
 }
-
 /* FOOTER */
 
 /* PAGE COMMON */
